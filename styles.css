@@ -18,6 +18,15 @@ h2 {
   width: 55%;
 }
 
+.inline-p {
+  display: inline;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
 footer {
   padding: 100px;
 }
