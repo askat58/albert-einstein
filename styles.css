@@ -4,7 +4,8 @@ body {
   background-image: url(topography.png);
   color: #303841;
   font-family: "Mukta", sans-serif;
-  margin: 30px;
+  margin: 30px 0;
+  padding: 20px 100px;
 }
 
 #title {
@@ -20,41 +21,48 @@ h2 {
 }
 
 #image {
-  border: 1px solid #ddd;
+  border: 1px solid #aaa;
   border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   margin: 0 auto;
-  width: 65%;
+  width: 75%;
 }
 
 figcaption {
   font-size: 14px;
   font-style: italic;
   text-align: right;
-  padding: 5px;
-  width: 65%;
-  
+  padding: 15px;
+  max-width: 65%;
+}
+
+section {
+  background: #f7f7f7;
+  line-height: 1.8;
+  padding: 25px;
+  margin: 25px 0;
 }
 
 #tribute-info {
+  font-size: 20px;
   text-align: justify;
 }
 
 #inline-p {
-  display: inline;
+  font-size: 18px;
   font-weight: bold;
-  text-align: center;
 }
 
 a {
   color: #303841;
   text-decoration: none;
   font-weight: bold;
-  line-height: 3;
+  line-height: 2;
 }
 
 a:hover {
   color: #7aa5d2;
-  
 }
 
 ul {
@@ -63,5 +71,6 @@ ul {
 
 footer {
   color: #47555e;
-  padding: 15px 0;
+  font-size: 16px;
+  letter-spacing: 1.5px;
 }
